@@ -1,0 +1,273 @@
+@charset "utf-8";
+/* CSS Document */
+
+.func-form_type{background-color: #fff; overflow: hidden;}
+	.col-1{width: 8.333333333333%;}
+	.col-2{width: 16.66666666667%;}
+	.col-3{width: 25%;}
+	.col-4{width: 33.33333333333%;}
+	.col-5{width: 41.66666666667%;}
+	.col-6{width: 50%;}
+	.col-7{width: 58.33333333333%;}
+	.col-8{width: 66.66666666666%;}
+	.col-9{width: 75%;}
+	.col-10{width: 83.33333333333%;}
+	.col-11{width: 91.66666666666%;}
+	.col-12{width: 100%;}
+
+    .func-form_type li{margin-bottom: 20px;font-size: 0; }
+	.func-form_type span{display:inline-block; vertical-align: middle;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+		}
+
+	.func-form_type .inner{font-size: 22px;color: #8c8c8c;padding-left: 0.3em;padding-left: 0.3em;font-weight: normal;letter-spacing: 2px;}
+	.func-form_type .innerup{font-size: 22px;color: #555;}
+	.func-form_type .innerup label{font-weight: normal;}
+	.func-form_type .hint{font-size: 15px;color: #8c8c8c;font-weight: 100;}
+	.func-form_type .hint a{text-decoration: underline;display: inline; cursor: pointer;}
+	.func-form_type .innerbtn{font-size: 28px;}
+	.func-form_type .inlbtn{font-size: 25px;padding: 7px 0 !important; text-align: center;line-height: 1;}
+	.func-form_type .inlbtn svg{fill:#fff; display: inline-block; width: 25px; height: 25px;vertical-align: middle;}
+	.func-form_type .inblock-maR{margin-right: 2.166667%;}
+	.func-form_type .inblock-maRpx{margin-right: 10px;}
+	.func-form_type .inblock-maB{margin-bottom: 15px;}
+	.func-form_type .SP{width: 49.2%;}
+	.func-form_type .SP2-1{width: 67.2%;padding: 4px 0;}
+	.func-form_type .SP2-2{width: 31.2%;padding: 4px 0;}
+	.func-form_type .pullright{float: right;}
+
+	.func-form_type .cname{text-align: right;padding-right: 30px; font-size: 22px;color: #8c8c8c;}
+	.func-form_type .cname label{    font-weight: normal;letter-spacing: 2px;}
+	.func-form_type .up{vertical-align: top;}
+
+	.func-form_type select,
+	.func-form_type input[type=text],
+	.func-form_type input[type=radio],
+	.func-form_type input[type=checkbox],
+	.func-form_type textarea{font-size: 22px;font-weight: normal;letter-spacing: 1px;padding: 4px 10px;border: 1px solid #bfbfbf;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+	    display: inline-block; vertical-align: middle;}
+
+	.func-form_type input[type=file]{
+		font-size: 22px;
+		border: 1px solid #cecece;
+		cursor: pointer;
+		display: inline-block;
+		padding: 5px 5px;
+		text-decoration: none;
+		color: #999;
+		background: #fff;}
+
+	.func-form_type .btnarea input[type=submit]{padding:8px 0;}
+
+	.func-form_type select,.func-form_type input[type=text]{height: 45px;}
+	.func-form_type input[type=radio],
+	.func-form_type input[type=checkbox]{width: 22px; height: 22px;}
+
+	.btnarea{text-align: center; padding-top: 30px;}
+	.func-form_type .addnewbtn{text-align: center;padding-bottom: 10px;}
+	.func-form_type .addnewbtn a{text-align: center;}
+	.func-form_type .addnewbtn a span,.func-form_type .addnewbtn a svg{display: inline-block; vertical-align: middle; font-weight: normal;}
+/*	.func-form_type .addnewbtn a svg{fill:#65B5B0;}*/
+			.func-form_type .addnewbtn a:hover svg{fill:#fff;}
+	.func-form_type .btnarea.tophr{border-top: 1px solid #c3c3c3;}
+
+	.func-form_type .addnew{background-color: #f8f8f8; padding: 30px 0;margin-bottom: 30px;}
+	.func-form_type .title{text-align: center; position: relative;}
+	.func-form_type .title h3,
+	.func-form_type .title h4{font-weight: normal;}
+	.func-form_type .title h6, .func-form_type .title h4.btn{position: absolute; right: 2%; top: 10px;}
+	.func-form_type .title h6{color:#8c8c8c;}
+
+
+	.func-form_type .luckup{
+		-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+		filter: alpha(opacity=50);
+		-moz-opacity:0.50;
+		-khtml-opacity: 0.50;
+		opacity: 0.50;
+	}
+
+	.func-form_type .leftsec{
+		display:inline-block; font-size:0; vertical-align:top;
+	}
+	.func-form_type .rightsec{
+		display:inline-block; font-size:0; vertical-align:top;
+	}
+
+	.per-info_edit .leftsec{text-align: right;}
+	.per-info_edit .leftsec a.image{
+	    display: inline-block;
+	    width: 255px;
+	    height: 265px;
+	    position: relative;
+	    overflow: hidden;
+	    -webkit-box-sizing: border-box;
+	    -moz-box-sizing: border-box;
+	    box-sizing: border-box;
+	    border: 6px solid #fff;
+	    -moz-box-shadow: 0 0 8px #afafaf;
+	    -webkit-box-shadow: 0 0 8px #afafaf;
+	    box-shadow: 0 0 8px #afafaf;
+	    margin-bottom: 20px;
+	}
+	.per-info_edit .leftsec a.button_type3{
+		text-align: center;
+		width: 255px;
+	    -webkit-box-sizing: border-box;
+	    -moz-box-sizing: border-box;
+	    box-sizing: border-box;
+	}
+
+	.editpen{width: 25px; height: 25px; display: inline-block; vertical-align: sub; margin-right: 5px;}
+
+	
+
+.func-form_type.ask-lesson{
+	padding-top: 30px;
+}
+
+.func-form_type.ask-ticket{
+	padding-top: 30px;
+}
+
+.func-form_type.ask-hotel{
+	padding-top: 30px;
+}
+
+.func-form_type.ask-travel{
+}
+
+.func-form_type.add-signup{
+}
+
+.func-form_type.edit-travelogue{
+	padding-top: 30px;
+}
+
+
+
+
+/*Media Query smaller then 480-----------------------------------------------------*/
+/*@media (max-width: 480px) {
+}*/
+/*Media Query smaller then 767-----------------------------------------------------*/
+@media (max-width: 767px) {
+	.btnarea .col-3{width: 80%;}
+
+	.func-form_type .innerbtn {font-size: 23px;}
+	.func-form_type span {}
+	.col-2.cname{width: 100%;text-align: left;padding: 0 2%; margin-bottom: 10px;font-size: 18px;font-weight: normal;}
+	.col-2.lineline{width: 0;}
+	.col-2.lineline + .col-8{width: 100%;}
+	.col-2.cname + .col-9{width: 100%;text-align: left;padding: 0 2%;}
+	.edit-travelogue input[type=file]{width: 100%;font-size: 17px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;}
+    .edit-travelogue .col-12 .col-7{width: 100%;}
+    .edit-travelogue .btnarea .col-6{width: 100%;}
+    .func-form_type .SP {width: 39% !important;}
+	.func-form_type .inblock-maRpx {margin-right: 2% !important;}
+	.edit-travelogue .btnarea input[type=submit] {width: 80%;}
+	
+
+
+	.col-4.cname{width: 100%;text-align: left;padding: 0 10%; margin-bottom: 10px;font-size: 17px;font-weight: normal;}
+	.col-3.cname{width: 100%;text-align: left;padding: 0 10%; margin-bottom: 10px;font-size: 17px;font-weight: normal;}
+	.cname + .col-5{width: 100%;text-align: left;padding: 0 10%;}
+	.cname + .col-6{width: 100%;text-align: left;padding: 0 10%;}
+	.cname + .col-8{width: 100%;text-align: left;padding: 0 10%;}
+	.cname + .col-7{width: 100%;text-align: left;padding: 0 10%;}
+	.ch-mob-right{width: 100%;text-align: left;padding: 0 10%;}
+	.col-8 .col-1{width: 15.333333%;}
+	.col-8 .col-3{width: 40%;}
+	.col-8 .col-5{width: 41.66666666667%;}
+	.cname br{display: none;}
+	.func-form_type .inner {font-size: 16px;font-weight: normal;margin-bottom: 0;}
+	.func-form_type .hint {font-size: 13px;font-weight: normal;margin-bottom: 0;}
+	.Mturncol1 .col-5 .col-4{width: 100%;}
+	.Mturncol1 .col-5 .col-8{width: 89%;}
+	.func-form_type .title h6, {max-width: 29%;}
+	.func-form_type .title h4.btn {top: -9px;}
+	.Mturncol3 .ww{width: 100%;margin-bottom: 10px;}
+	.Mturncol3 select,.Mturncol3 input{width: 89%;}
+	.Mturncol3 .ws{margin-bottom: 10px; width: 100%;}
+	.Mturncol3 .ws + select{width: 89%;}
+	.btnarea input.col-3{width: 47%;}
+
+	.forgot-pass .col-12 .col-3,
+	.login-corp .col-12 .col-3,
+	.login-per .col-12 .col-3{width: 0%}
+
+	.forgot-pass .col-12 .col-6,
+	.login-corp .col-12 .col-6,
+	.login-per .col-12 .col-6{width: 100%; padding: 0 10%;}
+	
+	.func-form_type .innerup{margin-bottom: 10px;}
+	.per-info_edit .title{height: 15px;}
+	.per-info_edit .leftsec{width: 100%;text-align: center;}
+	.per-info_edit .rightsec{width: 100%;}
+	.per-info_edit .leftsec a.image{width: 185px;height: 190px;}
+	.per-info_edit .leftsec a.button_type3{width: 185px; padding: 8px 5px;}
+
+	.forgot-pass .btnarea input[type=submit],
+	.per-info_edit .btnarea input[type=submit],
+	.corp-info_edit .btnarea input[type=submit],
+	.signup-corp .btnarea input[type=submit],
+	
+	.ask-lesson .btnarea input[type=submit]{width: 80% !important; margin: 0 0 15px;}
+
+	.login-corp .btnarea input[type=submit],
+	.login-per .btnarea input[type=submit]{
+		width: 49% !important; margin: 0 0 15px;}
+
+	.login-corp .col-12 .hint.col-6,
+	.login-per .col-12 .hint.col-6{width: 50%; padding:0; vertical-align: top;}
+
+	.chb-mob-left{width: initial !important;}
+	.chb-mob-right{width: 87% !important;}
+	.hr-mob-left{width: 0 !important;}
+	.hr-mob-right{width: 100% !important;}
+
+	.func-form_type .title{padding-top: 50px;}
+	.func-form_type select, .func-form_type input[type=text], .func-form_type input[type=radio], .func-form_type input[type=checkbox], .func-form_type textarea
+	{font-size: 18px;}
+	.func-form_type .addnewbtn a{width: 90%;}
+
+
+}
+
+
+/*Media Query between 768to 1024-----------------------------------------------------*/
+@media (min-width: 768px) and (max-width: 1024px) {
+	.func-form_type .inner{font-size: 19px;}
+	.func-form_type .hint{font-size: 15px;}
+	.func-form_type .cname {padding-right: 10px;font-size: 19px;}
+
+	.func-form_type .inblock-maRpx{margin-right: 4%;}
+	.func-form_type .SP2-2{width: 67.2%;}
+	.func-form_type .SP {width: 48%;}
+	.func-form_type .SP2-1 {width: 48%;}
+	.func-form_type .SP2-2 {width: 48%;}
+	.func-form_type .innerbtn {font-size: 24px;}
+
+	.per-info_edit .rightsec .col-5 {width: 62.666667%;}
+	.per-info_edit .leftsec a.image {width: 220px;height: 245px;}
+	.per-info_edit .leftsec a.button_type3{width: 220px;}
+
+
+
+}
+
+/*Media Query bigger then 980-----------------------------------------------------*/
+@media (min-width: 980px) {
+}
+
+/*Media Query bigger then 1200-----------------------------------------------------*/
+@media (min-width: 1200px) {
+}

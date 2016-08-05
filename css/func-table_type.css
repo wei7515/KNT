@@ -1,0 +1,92 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+.func-table_type{ padding: 0 10%; background-color: #fff; overflow: hidden;}
+	.func-table_type .tablecon{width: 100%;}
+	.func-table_type .tablecon table,.func-table_type .tablecon td{border: 1px solid #c4c4c4;}
+	.func-table_type .tablecon table{border-collapse: collapse;width: 100%; margin-bottom: 30px;}
+	.func-table_type .tablecon .head td{padding: 8px; color:#5d5d5d; background: #e6e6e6;vertical-align: middle;}
+	.func-table_type .tablecon .head td.yellowbg-dark{ color:#fff; background: #c7bdb2;}
+	.func-table_type .tablecon td{padding: 8px; color:#5d5d5d; text-align: center;font-weight: normal;}
+	.func-table_type .tablecon td.yellowbg-light{ color:#a4814f; background: #fcf7f1;}
+	.func-table_type .tablecon td p{margin-bottom: 10px;}
+	.func-table_type .tablecon td p a{color: #777777;text-decoration: none;}
+	.func-table_type .tablecon td p a:hover{text-decoration: underline;}
+	.func-table_type .tablecon td h4{overflow: hidden; text-align: center;}
+
+	.func-table_type .bottom{text-align: right; margin-bottom: 15px;}
+	.func-table_type .bottom div:first-child{margin-bottom: 10px;}
+	.func-table_type .bottom h4.big{font-weight: normail;}
+	.func-table_type .note div{margin-bottom: 30px; padding-top: 15px;}
+	.func-table_type .money-transfer{margin-bottom: 50px; text-align: center; border: 2px solid; padding-top: 15px;}
+	.func-table_type .money-transfer li{display: inline-block; margin: 0 5px;}
+	.func-table_type .money-transfer li h4{display: inline-block; margin-bottom: 15px; font-weight: normail;}
+	.func-table_type .action{text-align: center; border-top: 1px solid #dddedf;padding-top:30px;}
+	.func-table_type .action h3 span {display: inline-block; margin: 0 10px 30px;}
+
+	.func-table_type .tablecon .sin td{text-align: left; }
+	.func-table_type .tablecon caption{text-align: left; }
+	.func-table_type .tablecon.pc .sin td{width: 25%;}
+	.func-table_type .tablecon.pc td.yellowbg-light{width: 5% !important;}
+}
+
+.func-table_type.detail-ticket{}
+	.func-table_type.detail-ticket .bottom h4.big span{color:#e88e37;}
+	.func-table_type .money-transfer{border-color: #d9a460;}
+	.func-table_type .money-transfer li span{color: #d9a460}
+
+.func-table_type.detail-backpack{}
+	.func-table_type.detail-backpack .title{overflow: hidden; margin-bottom: 20px; color:#9e9f9e;}
+	.func-table_type.detail-backpack .title .pullleft em{color: #d9a460; font-weight: normail;}
+	.func-table_type.detail-backpack .title .pullright em{color: #606161; font-weight: normail;}
+	.func-table_type.detail-backpack .title .pullleft{float: left;}
+	.func-table_type.detail-backpack .title .pullright{float: right;}
+	.func-table_type.detail-backpack .bottom h4.big span{color:#e88e37;}
+
+.func-table_type.detail-sport{}
+	.func-table_type.detail-sport .title{overflow: hidden; margin-bottom: 20px; color:#9e9f9e;}
+	.func-table_type.detail-sport .title .pullleft em{color: #d9a460; font-weight: normal;margin-right: 10px;}
+	.func-table_type.detail-sport .title .pullright em{color: #606161;font-weight: normal;margin-right: 10px;}
+	.func-table_type.detail-sport .title .pullleft{float: left;}
+	.func-table_type.detail-sport .title .pullright{float: right;}
+	.func-table_type.detail-sport .bottom h4.big span{color:#e88e37;}
+
+.func-table_type.detail-cloth{}
+	.func-table_type.detail-cloth .title{text-align: center;}
+	.func-table_type.detail-cloth .title h4{color: #768a92; font-weight: normal;}
+
+
+
+/*Media Query smaller then 480-----------------------------------------------------*/
+/*@media (max-width: 480px) {
+}*/
+/*Media Query smaller then 767-----------------------------------------------------*/
+@media (max-width: 767px) {
+.func-table_type.detail-sport .title .pullleft span{width: 100%; display: inline-block;margin-bottom: 5px;}
+.func-table_type.detail-sport .title .pullright span{width: 100%; display: inline-block;margin-bottom: 5px;}
+.func-table_type.detail-sport .title{margin-bottom: 15px;}
+.func-table_type .tablecon .head td.yellowbg-dark{text-align: left;}
+.func-table_type.detail-sport .title .pullleft{width: 100%;}
+.func-table_type.detail-sport .title .pullright{width: 100%;}
+.func-table_type .money-transfer li h4 {display: inline-block;margin-bottom: 15px;font-weight: normal;}
+.func-table_type .money-transfer li h4 span{width: 100%;display: inline-block;}
+.func-block_type12 .calendar table h3{font-size: 19px;}
+.func-table_type .action h3 span { margin: 0 4px 30px;}
+
+
+.func-table_type.detail-cloth .title h4 { font-size: 24px;}
+}
+
+/*Media Query between 768to 1024-----------------------------------------------------*/
+@media (min-width: 768px) and (max-width: 1024px) {
+}
+
+/*Media Query bigger then 980-----------------------------------------------------*/
+@media (min-width: 980px) {
+}
+
+/*Media Query bigger then 1200-----------------------------------------------------*/
+@media (min-width: 1200px) {
+}
