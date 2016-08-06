@@ -8,7 +8,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 	font-family: "Hiragino Sans GB","华文细黑","STHeiti","微軟正黑體","Microsoft YaHei",SimHei,"Helvetica Neue",Helvetica,Arial,sans-serif; line-height: 1.2;
 	/*font-family: 'Noto Sans TC', "Microsoft YaHei",SimHei,"Helvetica Neue",Helvetica,Arial,sans-serif; line-height: 1.2; */}
 
-h1{font-size: 48px; font-weight: normal;}
+h1{font-size: 46px; font-weight: normal;}
 h1.small{font-size: 47px; font-weight: normal;}
 h1 big{font-size: 72px;}
 h1.en,h1 .en{font-size: 44px; font-weight: normal;}
@@ -16,15 +16,15 @@ h1.ch,h1 .ch{font-size: 40px; font-weight: normal;}
 h2{font-size: 40px; font-weight: normal;}
 h2.small,h2 small{font-size: 31px; font-weight: normal;}
 h3{font-size: 24px; font-weight: normal;}
-h3.small,h3 small{font-size: 23px; font-weight: normal;}
-h3 small.semi-h4{font-size: 18px; font-weight: normal;}
+h3.small,h3 small{font-size: 21px; font-weight: normal;}
+h3 small.semi-h4{font-size: 17px; font-weight: normal;}
 h4{font-size: 18px; font-weight: normal;}
 h4.big,h4 big{font-size: 21px; font-weight: normal;}
-h5{font-size: 14px; font-weight: normal;}
-h6{font-size: 15px; font-weight: 100;}
+h5{font-size: 15px; font-weight: normal;}
+h6{font-size: 15px; font-weight: normal;}
 
-li,p{font-size: 14px; line-height: 1.5; font-weight: normal;}
-li.small,p.small,p small{font-size: 14px;line-height: 1.5;font-weight: normal;}
+li,p{font-size: 15px; line-height: 1.5; font-weight: normal;}
+li.small,p.small,p small{font-size: 15px;line-height: 1.5;font-weight: normal;}
 
 em{font-style: normal;}
 
@@ -347,7 +347,7 @@ a:hover .trans{
 
 /*Media Query smaller then 320-----------------------------------------------------*/
 @media screen and (max-width: 360px) {
-	.in-footer_nav ul li a {width:60px !important;}
+	.in-footer_nav ul li a {width:64px !important;}
 }
 
 /*Media Query smaller then 480-----------------------------------------------------*/
@@ -501,7 +501,7 @@ a:hover .trans{
 	h4.big, h4 big {font-size: 22px;}
 	h4 {font-size: 18px;font-weight: normal;line-height: 1.5;}
 	h5{font-size: 17px;}
-	li, p {font-size: 12px;line-height: 1.8;}
+	li, p {font-size: 15px;line-height: 1.8;}
 	li.small, p.small, p small {font-size: 18px;line-height: 1.7;}
 
 	select.button_type4 {
@@ -568,10 +568,10 @@ a:hover .trans{
 
 	.in-footer_nav ul li a.logo {width: 56px;height: 35px; display: none;}
 	.in-footer_nav ul li a.logo img{width: 100%;}
-	.in-footer_nav ul li a {font-size: 0.5em;height: 82px;width:68px;background-position: center 14px;background-size: 63% 39%;}
+	.in-footer_nav ul li a {font-size:12px;height: 82px;width:68px;background-position: center 14px;background-size: 63% 39%;}
 	.in-footer_nav ul li a span {}
 	.in-footer_nav ul li a svg {width: 66%;}
-	.footer-sec1 {padding: 0 2%;}
+	.footer-sec1 {padding: 0 0;}
 	.footer-sec2 {padding: 0 2%;}
 	.in-footer_nav ul li {vertical-align: middle;}
 	.in-footer_nav ul li a:hover {background-size: 69% 41%;background-position: center 13px;}
@@ -601,7 +601,7 @@ a:hover .trans{
 	h2{font-size: 40px; line-height: 1.1}
 	h2.small,h2 small{font-size: 31px; line-height: 1.1}
 	h3{font-size: 22px; line-height: 1.1}
-	h3.small,h3 small{font-size: 25px; line-height: 1.1}
+	h3.small,h3 small{font-size: 21px; line-height: 1.5;}
 	h3 small.semi-h4{font-size: 16px; line-height: 1.1}
 	h4{font-size: 18px; line-height: 1.1}
 	h4.big,h4 big{font-size: 21px; line-height: 1.1}

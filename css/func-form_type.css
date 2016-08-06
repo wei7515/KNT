@@ -25,7 +25,7 @@
 	.func-form_type .inner{font-size: 22px;color: #8c8c8c;padding-left: 0.3em;padding-left: 0.3em;font-weight: normal;letter-spacing: 2px;}
 	.func-form_type .innerup{font-size: 22px;color: #555;}
 	.func-form_type .innerup label{font-weight: normal;}
-	.func-form_type .hint{font-size: 15px;color: #8c8c8c;font-weight: 100;}
+	.func-form_type .hint{font-size: 18px;color: #8c8c8c;font-weight: normal;}
 	.func-form_type .hint a{text-decoration: underline;display: inline; cursor: pointer;}
 	.func-form_type .innerbtn{font-size: 28px;}
 	.func-form_type .inlbtn{font-size: 25px;padding: 7px 0 !important; text-align: center;line-height: 1;}

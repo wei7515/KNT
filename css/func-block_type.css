@@ -63,8 +63,9 @@ a:hover .favheart{right: 0;}
 	.func-block_type1 .pic{float: left;width:66.66666666666%;}
 	.func-block_type1 .pic a{ display: block;width: 100%; min-height: 365px; position: relative; overflow: hidden;}
 	.func-block_type1 .context{float: left;width:23.333333%; min-height: 257px; text-align: center;padding: 108px 5% 0;}
-	.func-block_type1 .context h1{margin-bottom: 20px;font-weight: 100;}
+	.func-block_type1 .context h1{margin-bottom: 13px;font-weight: normal;}
 	.func-block_type1 .context h6{margin-bottom: 15px;}
+	.func-block_type1 .context p{margin-bottom: 15px;font-size: 16px;font-weight: normal;}
 
 	.func-block_type1.type1-2 .pic{float: right;}
 	.func-block_type1.type1-2 .context{float: right;}
@@ -75,8 +76,8 @@ a:hover .favheart{right: 0;}
 	.func-block_type2 .pic a{ display: block;width: 100%; min-height: 375px; position: relative; overflow: hidden;}
 	.func-block_type2 .context{float: right;width:23.333333%; min-height: 325px; text-align: center;padding: 35px 5% 15px;}
 	.func-block_type2 .context h6{margin-bottom: 15px;}
-	.func-block_type2 .context h1{margin-bottom: 13px;font-weight: 100;}
-	.func-block_type2 .context p{margin-bottom: 15px;font-size: 16px;font-weight: 100;}
+	.func-block_type2 .context h1{margin-bottom: 13px;font-weight: normal;}
+	.func-block_type2 .context p{margin-bottom: 15px;font-size: 16px;font-weight: normal;}
 	.func-block_type2 .context .info{border-top:1px solid rgba(255,255,255,0.5); padding-top: 20px;}
 	.func-block_type2 .context .info div{float: left; width: 50%; margin-bottom: 20px;
 		-webkit-box-sizing: border-box;
@@ -318,9 +319,10 @@ a:hover .favheart{right: 0;}
 	.func-block_type12 .calendar td p a{color: #777777;text-decoration: none;position: relative;display: block;}
 	.func-block_type12 .calendar td p a:hover{text-decoration: underline;}
 	.func-block_type12 .calendar td h4{overflow: hidden; text-align: center;}
-	.func-block_type12 .calendar td h4 a{float: right; display: block;position: relative;padding: 4px 20px 0;}
-	.func-block_type12 .calendar td h4 a i{width: 18px;height: 27px;display: inline-block;vertical-align: top;background: url(../images/icon/more_schadule.png) no-repeat 0 2px;}
-	.func-block_type12 .calendar td h4 a:hover i{background: url(../images/icon/more_schadule-white.png) no-repeat 0 4px;}
+	.func-block_type12 .calendar td h4 a{float: right; display: block;position: relative;padding: 3px 8px 3px;}
+	.func-block_type12 .calendar td h4 a svg{width: 18px;height: 18px;display: inline-block;vertical-align: middle; fill:#61A79D;}
+	.func-block_type12 .calendar td h4 a span{display: inline-block;vertical-align: middle;}
+	.func-block_type12 .calendar td h4 a:hover svg{fill:#fff;}
 	.func-block_type12 .calendar i{display: inline-block; width: 15px; height: 15px; vertical-align: middle;margin-right: 3px; -webkit-border-radius: 100px;-moz-border-radius: 100px;border-radius: 100px;}
 	.func-block_type12 .note{padding-top: 30px;}
 	.func-block_type12 .note ol,.func-block_type12 .note ul{margin-left: 1em;}
@@ -454,7 +456,7 @@ a:hover .favheart{right: 0;}
 	.func-block_type2 .pic a {min-height: 200px;}
 	.func-block_type2 .pic {float: left;width: 100%;}
 	.func-block_type2 .context {float: left;width: 80%;min-height: 241px;padding: 15px 10% 15px;}
-	.func-block_type2 .context h6 {font-size: 17px; font-weight: 100; margin-bottom: 8px;}
+	.func-block_type2 .context h6 {font-size: 17px; font-weight: normal; margin-bottom: 8px;}
 	.func-block_type2 .context h1 {margin-bottom: 5px;}
 	.func-block_type2 .context p {margin-bottom: 10px;}
 	.func-block_type2 .context .info {padding-top: 15px;}
@@ -557,16 +559,8 @@ a:hover .favheart{right: 0;}
 	.func-block_type12 {padding: 0 2% 0;}
 	.func-block_type12 .calendar td {padding: 10px;width: 33.33333333%;}
 	.func-block_type12 .calendar td p {margin-bottom: 3px;}
-	.func-block_type12 .calendar td h4 a {padding: 2px 5px !important;font-size: 15px;}
-	.func-block_type12 .calendar td h4 a i {
-	    width: 15px;
-    height: 15px;
-    display: inline-block;
-    vertical-align: bottom;
-    background-position: 0px 0;
-    background-size: 13px 13px;
-    margin-right: 1px;
-    position: initial;}
+	.func-block_type12 .calendar td h4 a {padding: 1px 3px 2px !important;font-size: 14px;}
+	.func-block_type12 .calendar td h4 a svg {width: 13px;height: 14px;}
     .func-block_type12 .calendar i{display: inline-block; width: 15px; height: 15px; vertical-align: middle;margin-right: 3px; -webkit-border-radius: 100px;-moz-border-radius: 100px;border-radius: 100px;position: absolute;
     left: -18px;
     top: 4px;}
